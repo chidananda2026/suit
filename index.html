@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PreAI suite — Security for the AI on your devices</title>
+  <meta name="description" content="Your security gates see a trusted process on the right account. The PreAI suite sees the agent: it judges what AI writes, what it can reach and what it does, on the device, before it runs. PreAI Sentry, Tokenvoy, Prahari and an Enterprise SOC you run.">
+  <meta name="theme-color" content="#2563eb">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PreAI suite — Your gates see a trusted process. We see the agent.">
+  <meta property="og:description" content="Twelve gates face outward. The AI agent starts inside them. The PreAI suite works on the device, before each action.">
+  <meta property="og:image" content="assets/checkpoint.png">
+  <link rel="icon" href="assets/preai-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></symbol>
+  </defs>
+</svg>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#"><img src="assets/preai-icon.svg" alt="">PreAI <span style="font-weight:500;color:var(--muted)">Suite</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <a class="link" href="#gates">The gates</a>
+      <a class="link" href="#record">What happened</a>
+      <a class="link" href="#products">Products</a>
+      <a class="link" href="#enterprise">Enterprise</a>
+      <a class="link" href="#faq">FAQ</a>
+      <span class="sep"></span>
+      <a class="btn btn-primary" href="mailto:info@preai.dev?subject=PreAI%20suite%20sales">Contact sales</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="eyebrow">Let AI work. Keep control.</span>
+      <h1>Your gates see a trusted process on the right account. <span class="hl">We see the agent.</span></h1>
+      <p class="lede">AI agents act on every laptop with your employees' access, and every gate you own says yes. The PreAI suite judges what AI writes, what it can reach and what it does, on the device, before it runs.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary btn-lg" href="mailto:info@preai.dev?subject=PreAI%20suite%20sales">Contact sales <span class="ar">→</span></a>
+        <a class="btn btn-ghost btn-lg" href="#gates">Walk the gates</a>
+      </div>
+      <div class="trust">
+        <span class="pill"><svg><use href="#i-check"/></svg>A no before, an undo after</span>
+        <span class="pill"><svg><use href="#i-check"/></svg>Agents cannot switch it off</span>
+        <span class="pill"><svg><use href="#i-check"/></svg>Your devices, your servers</span>
+        <span class="pill"><svg><use href="#i-check"/></svg>Windows · macOS · Linux</span>
+      </div>
+    </div>
+
+    <figure class="shot">
+      <div class="shot-bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="shot-tab">Where the AI walks</span><span class="shot-badge">On the device</span></div>
+      <picture>
+        <source srcset="assets/checkpoint.webp" type="image/webp">
+        <img src="assets/checkpoint.png" width="1920" height="880" fetchpriority="high" alt="The enterprise's security stack as a building, from the internet at the top through DDoS protection, firewalls, the DMZ, the internal network and the employee's device down to the databases and the SOC. An attacker's path is blocked at the firewall; the AI agent's path starts inside, on the device, where the PreAI suite sits as checkpoint 13. Beside it: what every gate was built to catch, what an AI agent is, and what the suite asks: should this trusted program do this particular thing, right now, with this data?">
+      </picture>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ THE GATES ============ -->
+<section class="band alt" id="gates">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Gate by gate</span>
+      <h2>Twelve gates face outward. The AI agent starts inside them.</h2>
+      <p>Each gate was built to catch a stranger, malware, or data going to a forbidden place. An AI agent is a program you installed, running as your employee, on a compliant device, to destinations you allowed. Every gate lets it through, correctly. At each of those points the suite asks a different question.</p>
+    </div>
+    <div class="cmp-scroll">
+      <table class="cmp gt">
+        <thead><tr><th>Your gate</th><th>What it asks</th><th class="us">What the suite asks instead</th></tr></thead>
+        <tbody>
+          <tr><td class="feat" data-l="Your gate">DDoS protection</td><td data-l="It asks">Is a flood arriving from outside?</td><td class="us" data-l="The suite asks instead">Is one AI session running away? Quarantined until a person looks.</td></tr>
+          <tr><td class="feat" data-l="Your gate">Network firewall and IPS</td><td data-l="It asks">Is the destination allowed? Is this a known attack?</td><td class="us" data-l="The suite asks instead">What is inside the prompt, and should it leave? Credentials redacted, personal data as placeholders.</td></tr>
+          <tr><td class="feat" data-l="Your gate">Web application firewall</td><td data-l="It asks">Is a visitor attacking our website?</td><td class="us" data-l="The suite asks instead">Does anything the AI reads contain orders aimed at it? Stripped, and flagged as data.</td></tr>
+          <tr><td class="feat" data-l="Your gate">Internal and host firewalls</td><td data-l="It asks">May this machine reach that server?</td><td class="us" data-l="The suite asks instead">Should this program do this action, right now? Judged before it runs.</td></tr>
+          <tr><td class="feat" data-l="Your gate">VPN and Zero Trust</td><td data-l="It asks">Who is asking?</td><td class="us" data-l="The suite asks instead">Which program is acting for them, and what may it do? One actor per agent, secrets never shown to it.</td></tr>
+          <tr><td class="feat" data-l="Your gate">Email gateway</td><td data-l="It asks">Is incoming mail dangerous?</td><td class="us" data-l="The suite asks instead">Is confidential data leaving by mail, and to whom? Inside the company only.</td></tr>
+          <tr><td class="feat" data-l="Your gate">Web proxy</td><td data-l="It asks">Is the site allowed?</td><td class="us" data-l="The suite asks instead">What is being pasted into the AI site? Placeholders instead, found before the send.</td></tr>
+          <tr><td class="feat" data-l="Your gate">EDR and antivirus</td><td data-l="It asks">Is this process behaving like malware?</td><td class="us" data-l="The suite asks instead">Is this trusted program about to do harm, and can we undo it? Stopped, or rolled back.</td></tr>
+          <tr><td class="feat" data-l="Your gate">Network access control</td><td data-l="It asks">Is this device allowed on?</td><td class="us" data-l="The suite asks instead">Which AI is on this device, and is each one guarded? Inventory, coverage, proof.</td></tr>
+          <tr><td class="feat" data-l="Your gate">SIEM and SOC</td><td data-l="It asks">Do the alerts add up to an attack?</td><td class="us" data-l="The suite asks instead">What did the AI do, and can anyone prove the record is intact? Kept as evidence, on a SOC you run.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">The gates ask about the outside. The suite asks about the inside: this trusted program, this action, this data, right now. Your twelve gates stay exactly where they are.</p>
+  </div>
+</section>
+
+<!-- ============ WHAT HAPPENED ============ -->
+<section class="band" id="record">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">It already happened</span>
+      <h2>Every one of these passed every gate.</h2>
+      <p>Three public incidents from the last year, in the words of the people who lived them.</p>
+    </div>
+    <div class="grid cols-3">
+      <div class="card fear">
+        <p class="big">The agent said sorry.</p>
+        <p>An AI coding agent deleted a live production database during a declared code freeze, then said rollback was impossible. It wasn't. An apology is not a rollback.</p>
+        <span class="when">July 2025</span>
+      </div>
+      <div class="card fear">
+        <p class="big">It takes orders from strangers.</p>
+        <p>A rogue commit put a data-wiping prompt into an AI coding extension used by hundreds of thousands of developers. It shipped. Anyone who can write can give it orders.</p>
+        <span class="when">July 2025</span>
+      </div>
+      <div class="card fear">
+        <p class="big">You gave it the production keys.</p>
+        <p>In turbo mode, asked to clear a cache, an AI editor's agent wiped the user's whole drive past the recycle bin, then apologised. Day one, production access, no supervisor.</p>
+        <span class="when">December 2025</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHO IT'S FOR ============ -->
+<section class="band alt" id="who">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Who it's for</span>
+      <h2>For the people who will be asked what happened</h2>
+    </div>
+    <div class="grid cols-3 who">
+      <div class="card"><small>CISO</small><p>You enforce least privilege for people. Your agents run on the developer's.</p></div>
+      <div class="card"><small>SOC lead</small><p>The attack arrives as a paragraph. There is no signature for a paragraph.</p></div>
+      <div class="card"><small>CTO</small><p>Every README your agent opens is a script it might run.</p></div>
+      <div class="card"><small>Compliance</small><p>A confession is not an audit trail. The record is.</p></div>
+      <div class="card"><small>CFO</small><p>Sorry is free. The restore isn't.</p></div>
+      <div class="card"><small>Board</small><p>A new kind of worker on every laptop. It needs a supervisor.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRODUCTS ============ -->
+<section class="band" id="products">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Three products</span>
+      <h2>A no before. An undo after. The record in between.</h2>
+      <p>Each runs on the device. Nothing leaves it to be checked. Use one, two or all three.</p>
+    </div>
+    <div class="suite">
+      <a class="card hover p-sentry" href="https://preai.dev" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">
+        <div class="suite-top"><img src="assets/preai-icon.svg" alt=""><div><small>What AI writes</small><h3>PreAI Sentry</h3></div></div>
+        <p>Inside the coding tools. Leaked keys, personal data, risky packages and hidden instructions caught as the assistant writes, before the commit.</p>
+        <span class="go">preai.dev →</span>
+      </a>
+      <a class="card hover p-tokenvoy" href="https://tokenvoy.preai.dev" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">
+        <div class="suite-top"><img src="assets/tokenvoy-icon.svg" alt=""><div><small>What AI can reach</small><h3>Tokenvoy</h3></div></div>
+        <p>Agents get access, never your keys. The secret goes into the program, not the agent, and is blanked from anything the agent prints.</p>
+        <span class="go">tokenvoy.preai.dev →</span>
+      </a>
+      <a class="card hover p-prahari" href="https://prahari.preai.dev" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">
+        <div class="suite-top"><img src="assets/prahari-icon.svg" alt=""><div><small>What AI does</small><h3>Prahari</h3></div></div>
+        <p>Every action judged before it runs. Files put back if it ran. One emergency stop for every agent on the machine.</p>
+        <span class="go">prahari.preai.dev →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ENTERPRISE ============ -->
+<section class="band alt" id="enterprise">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Enterprise</span>
+      <h2>The auditor reads the record, not the apology.</h2>
+      <p>Each product reports to a server you run, on your premises or in your cloud. Evidence goes up, signed policy and commands come down. No product server sits in the AI path.</p>
+    </div>
+    <div class="grid cols-4">
+      <div class="card srv p-sentry"><div class="srv-top"><div><small>PreAI Sentry</small><h3>Team Server</h3></div></div><p>Policy for every developer machine, findings in one place, a gate in the build pipeline. Your code never leaves.</p></div>
+      <div class="card srv p-tokenvoy"><div class="srv-top"><div><small>Tokenvoy</small><h3>Central vault</h3></div></div><p>Shared vaults for teams. Access for the agents, keys for nobody but the people you choose.</p></div>
+      <div class="card srv p-prahari"><div class="srv-top"><div><small>Prahari</small><h3>Enterprise SOC</h3></div></div><p>The whole fleet on one console: alerts, triage, commands. Nothing loosens without two people approving.</p></div>
+      <div class="card srv p-prahari"><div class="srv-top"><div><small>Prahari</small><h3>Policy &amp; Compliance</h3></div></div><p>Your rules become policy. Every decision carries the obligation it supports, ready for the auditor.</p></div>
+    </div>
+    <p class="note">Evidence an auditor can verify was never edited. Plugs into the identity, device management, SIEM, code hosting and ticketing you already have.</p>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="band" id="pricing">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Getting started</span>
+      <h2>See it on your own machines first</h2>
+      <p>A short pilot on a team you choose, before anyone commits.</p>
+    </div>
+    <ol class="flow three">
+      <li><div class="card"><div class="step"><span>Learn</span></div><h3>Nothing blocked, everything seen</h3><p>The suite watches what your agents actually do, and shows you what it would have stopped.</p></div></li>
+      <li><div class="card"><div class="step"><span>Protect</span></div><h3>Risky actions stopped</h3><p>Switch to blocking. Each stop comes with a plain reason, and only a person can allow it.</p></div></li>
+      <li><div class="card"><div class="step"><span>Decide</span></div><h3>A report, then your call</h3><p>A written summary of what it found. Walk away and clean removal puts every file back.</p></div></li>
+    </ol>
+    <div class="price-grid one" style="margin-top:28px">
+      <div class="price-card featured">
+        <p class="price-eyebrow">Enterprise</p>
+        <h3>The suite, under one agreement</h3>
+        <p class="price-amt">Custom</p>
+        <p>All three products and their enterprise servers, quoted to your seats and scope.</p>
+        <div class="cta-row"><a class="btn btn-primary" href="mailto:info@preai.dev?subject=PreAI%20suite%20Enterprise%20sales">Contact sales</a><a class="btn btn-ghost" href="mailto:info@preai.dev?subject=PreAI%20suite%20pilot">Book a pilot</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="band alt" id="faq">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">FAQ</span>
+      <h2>Four questions people ask first</h2>
+    </div>
+    <div class="faq">
+      <details open><summary>We have EDR, DLP and a proxy. Why this?<span class="plus" aria-hidden="true"></span></summary><div class="ans"><p>They watch for malware, for data leaving, and for forbidden sites. A trusted program doing allowed things under the right account trips none of them. The suite sits where the agent acts and judges the action itself, before it runs.</p></div></details>
+      <details><summary>Does anything go to your cloud?<span class="plus" aria-hidden="true"></span></summary><div class="ans"><p>Only identity, licences, updates and signed feeds. Every check runs on the device. Findings, secrets and records go to servers you run, or stay on the device if you run none.</p></div></details>
+      <details><summary>Do we need all three?<span class="plus" aria-hidden="true"></span></summary><div class="ans"><p>No. Each is complete on its own and shares no server with the others. Start with the risk that worries you most. The suite is for one agreement and one security team watching the whole fleet.</p></div></details>
+      <details><summary>Will it catch everything?<span class="plus" aria-hidden="true"></span></summary><div class="ans"><p>No, and we would rather say so. AI tools change every week, detection is pattern-based, and rollback is best effort inside other programs. The suite is a strong floor, not a guarantee. Keep version control, backups and the security you already have. Our <a href="disclaimer.html">disclaimer</a> says this in full.</p></div></details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <div class="fbrand"><img src="assets/preai-icon.svg" width="28" height="28" alt="">PreAI Suite</div>
+        <p>Your gates see a trusted process on the right account. We see the agent. A product of Sanniddhi Infosolutions Pvt Limited, Dubai.</p>
+      </div>
+      <div>
+        <h4>Products</h4>
+        <ul><li><a href="https://preai.dev" target="_blank" rel="noopener">PreAI Sentry</a></li><li><a href="https://tokenvoy.preai.dev" target="_blank" rel="noopener">Tokenvoy</a></li><li><a href="https://prahari.preai.dev" target="_blank" rel="noopener">Prahari</a></li></ul>
+      </div>
+      <div>
+        <h4>Suite</h4>
+        <ul><li><a href="#gates">The gates</a></li><li><a href="#enterprise">Enterprise</a></li><li><a href="mailto:info@preai.dev?subject=PreAI%20suite%20Enterprise%20sales">Contact sales</a></li><li><a href="https://sanniddhi.com" target="_blank" rel="noopener">About Sanniddhi</a></li></ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul><li><a href="terms.html">Terms of use</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="refunds.html">Refunds</a></li><li><a href="disclaimer.html">Disclaimer</a></li></ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© 2026 Sanniddhi Infosolutions Pvt Limited. All rights reserved.</span>
+      <span><a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a> · <a href="refunds.html">Refunds</a> · <a href="disclaimer.html">Disclaimer</a> · Made by <a href="https://sanniddhi.com" target="_blank" rel="noopener">Sanniddhi Infosolutions</a>, Dubai</span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
